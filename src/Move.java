@@ -3,15 +3,13 @@ public class Move {
 	int x,y,z;
 	String direction;
 	int size;
-	int number;
 	
-	public Move(int x, int y,int z, String direction, int size, int number){
+	public Move(int x, int y,int z, String direction, int size){
 		this.x=x;
 		this.y=y;
 		this.z=z;
 		this.direction=direction;
 		this.size=size;
-		this.number=number;
 	}
 	
 	public int getX() {
